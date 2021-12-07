@@ -1,6 +1,6 @@
 # Covid-19 Tracker React App
 
-Chack here:[https://avishaietach.github.io/Covid-19-Tracker/](https://avishaietach.github.io/Covid-19-Tracker/)
+Check here: [https://avishaietach.github.io/Covid-19-Tracker/](https://avishaietach.github.io/Covid-19-Tracker/)
 
 ## Description
 
@@ -11,18 +11,18 @@ This project was built using React
 
 1. A table that gives an indication of the status of the new cases discovered that day.
 The table can be filtered according to the number of cases from large to small or inverted, in alphabetical order.
-2. A complete list of countries to choose from and an indication of how many new cases, recovering and   dead were added on the same day to the selected country (by default on the whole world) - you can return to a world view by selecting worldwide or by resetting the browser.
+2. A complete list of countries to choose from and an indication of how many new cases, recovering and   dead were added on the same day to the selected country (by default on the whole world) - **you can return to a world view by selecting `worldwide` or by resetting the browser**.
 3. A map that gives a full indication of the cases that were (old and new) in each country using red circles, their radius is determined by the number of cases.
 On the map you can click on the red circles and get information about each country accordingly
-4. When selecting a country from the list of countries, the map will automatically switch to the selected country - you can return to a world view by selecting worldwide or by resetting the browser.
+4. When selecting a country from the list of countries, the map will automatically switch to the selected country - **you can return to a world view by selecting `worldwide` or by resetting the browser**.
 5. There are graphs showing the number of cases and the number of deaths according to the worldview.
 
 ## Technologies
 
-1.React js
-2.Node.js
-3.Google maps
-4.React material UI
+1. React js
+2. Node.js
+3. Google maps
+4. React material UI
 5. Working with API: Link
 6. Sass
 
