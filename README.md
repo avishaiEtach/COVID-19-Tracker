@@ -1,6 +1,30 @@
-# Getting Started with Create React App
+# Covid-19 Tracker React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Chack here:[https://avishaietach.github.io/Covid-19-Tracker/](https://avishaietach.github.io/Covid-19-Tracker/)
+
+## Description
+
+The app gives a real-time indication of the corona status in the countries of the world.
+This project was built using React
+
+## Features 
+
+1. A table that gives an indication of the status of the new cases discovered that day.
+The table can be filtered according to the number of cases from large to small or inverted, in alphabetical order.
+2. A complete list of countries to choose from and an indication of how many new cases, recovering and   dead were added on the same day to the selected country (by default on the whole world) - you can return to a world view by selecting worldwide or by resetting the browser.
+3. A map that gives a full indication of the cases that were (old and new) in each country using red circles, their radius is determined by the number of cases.
+On the map you can click on the red circles and get information about each country accordingly
+4. When selecting a country from the list of countries, the map will automatically switch to the selected country - you can return to a world view by selecting worldwide or by resetting the browser.
+5. There are graphs showing the number of cases and the number of deaths according to the worldview.
+
+## Technologies
+
+1.React js
+2.Node.js
+3.Google maps
+4.React material UI
+5. Working with API: Link
+6. Sass
 
 ## Available Scripts
 
@@ -39,7 +63,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+<!-- ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
@@ -68,8 +92,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-## Working web site
-
-Chack here:[https://avishaietach.github.io/Covid-19-Tracker/]
+ -->
