@@ -1,0 +1,40 @@
+
+.header-continer{
+    @media screen and ( max-width: 760px){
+        max-width: 400px;
+        flex-direction: column;
+     }
+    margin-bottom: $_30px;
+    margin-top:15px;
+    .logo-continer{
+        .logo-img-continer{
+            height: 50px;
+            width: 50px;
+        }
+        .logo-text{
+            text-transform: uppercase;
+            font-size: rem(30px);
+            margin-left: 20px;
+            padding-top: 3px;
+            @media screen and ( max-width: 760px){
+                // font-size: rem(20px);
+                margin-bottom: 30px;
+             }
+        }
+    }
+    .logo-button{
+        margin-left: 40px;
+        width: 150px;
+    }
+}
+
+.css-ece9u5{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.MuiOutlinedInput-notchedOutline.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    .css-1z7n62{
+        font-size: 1.75em;
+    }
+}

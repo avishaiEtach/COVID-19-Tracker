@@ -1,0 +1,64 @@
+
+
+
+.cards-continer{
+    margin-bottom: $_30px;
+    @media screen and ( max-width: 760px){
+        display: none;
+     }
+}
+
+.map-continer-bng{
+    padding: 15px;
+    background-color: #cecaca94;
+    outline: 1px solid black;
+    border-radius: 20px;
+    @media screen and ( max-width: 760px){
+        width: 400px;
+        height: 400px;
+        margin-bottom: 30px;
+     }
+}
+
+.map-continer{
+    width: 750px;
+    height: 620px;
+    position: relative;
+    @media screen and ( max-width: 760px){
+        width: 370px;
+        height: 370px;
+     }
+}
+
+.info-img-continer{
+width: 200px;
+height: 120px;
+margin-bottom: 30px;
+border: 2px solid black;
+    img{
+    width: 100%;
+    height: 100%;
+    }
+}
+
+.MuiCardContent-root.css-46bh2p-MuiCardContent-root{
+    padding: 16px 0;
+    width: 220px;
+}
+
+
+.MuiTypography-root.MuiTypography-h5{
+font-size: rem(22px);
+}
+
+
+.MuiTypography-root.MuiTypography-body1.MuiTypography-gutterBottom.flex.align-center.justify-center.css-1b7knfp-MuiTypography-root{
+    font-size: rem(20px);
+}
+
+.MuiTypography-root.MuiTypography-body1.flex.align-center.justify-center.css-2ow34t-MuiTypography-root{
+    font-size: rem(16px);
+}
+
+// width: 200px;
+// height: 120px;

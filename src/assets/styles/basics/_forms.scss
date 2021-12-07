@@ -1,0 +1,29 @@
+button {
+    padding: 5px 10px;
+    background-color: whitesmoke;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: 0.4s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: hsla(0, 0%, 96%, 0.5);
+}
+
+form > * {
+    display: block;
+    width: 200px;
+    margin: 10px 0px;
+}
+
+.btn-link {
+    border:0;
+    background-color: transparent;
+    text-decoration: underline;
+    transition: .5s;
+}
+.btn-link:hover {
+    background-color: $clr1;
+    transform: scale(1.1);
+}

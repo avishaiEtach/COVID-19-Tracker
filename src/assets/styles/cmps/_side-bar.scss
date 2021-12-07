@@ -1,0 +1,115 @@
+.sideBar-continer{
+    margin-top:30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    @media screen and ( max-width: 760px){
+     padding: 0;
+     &>p{
+         font-size: rem(24px);
+     }
+     }
+    .table-continer{
+        margin-bottom:$_30px;
+        @media screen and ( max-width: 760px){
+            width: 400px;
+            margin-bottom: 50px;
+            }
+    }
+}
+
+.chart-continer{
+    &>*{
+        padding: 10px;
+        background-color: white;
+        outline: 1px solid black;
+        border-radius: 5px;
+    }
+    &>:first-child{
+    margin-bottom: 30px;
+    }
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.MuiTablePagination-toolbar.css-11bfvty-MuiToolbar-root-MuiTablePagination-toolbar{
+    justify-content: space-around;
+    .MuiTablePagination-spacer.css-1psng7p-MuiTablePagination-spacer{
+        display: none;
+    
+    }
+
+}
+
+
+.MuiTablePagination-displayedRows.css-levciy-MuiTablePagination-displayedRows{
+    padding-top: 15px;
+}
+
+
+.MuiTablePagination-selectLabel.css-pdct74-MuiTablePagination-selectLabel{
+   margin-bottom: 0;
+}
+
+.MuiTablePagination-selectLabel.css-1chpzqh,.MuiTablePagination-displayedRows.css-1chpzqh{
+    margin-bottom: 0;
+}
+
+.MuiTablePagination-spacer.css-1mrwq1p{
+    display: none;
+}
+
+// .MuiTableContainer-root.css-rorn0c-MuiTableContainer-root{
+//     .MuiTable-root.css-18vff4n-MuiTable-root{
+//         tr{
+//             // &:nth-of-type(even){
+//                     background-color: rgba(221, 220, 220, 0.5);
+//                 //   }
+//                   &:hover{
+//                     background-color: rgba(92, 92, 92, 0.301);
+//                   }
+//         }
+//         .MuiTableRow-root.MuiTableRow-head.css-1q1u3t4-MuiTableRow-root{
+//             background-color: rgba(163, 162, 162, 0.5);
+//         }
+//     }
+// }
+.table-continer{
+    // .MuiTable-root.css-1bl6ehh-MuiTable-root{
+    //     .MuiTableHead-root.css-15wwp11-MuiTableHead-root{
+    //         background-color: rgba(92, 92, 92, 0.301);
+    //     }
+    // }
+
+    .MuiTableHead-root.css-1wbz3t9{
+        tr{
+            background-color: rgba(163, 162, 162, 0.5)
+        }
+    }
+
+    .MuiTableBody-root.css-1xnox0e{
+
+        tr{
+           &:nth-of-type(even){
+           background-color: rgba(221, 220, 220, 0.5);
+           }
+           &:hover{
+           background-color: rgba(92, 92, 92, 0.301);
+            }
+        }
+    }
+}
+
+.MuiBox-root.css-12va5w3{
+    @media screen and ( max-width: 760px){
+        width: auto;
+    }
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-161e1g-MuiPaper-root{
+    @media screen and ( max-width: 760px){
+        width: 390px;
+        .MuiTable-root.css-1bl6ehh-MuiTable-root{
+            min-width: auto;
+        }
+        }
+}
+
+
