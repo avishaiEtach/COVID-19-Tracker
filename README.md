@@ -23,7 +23,7 @@ On the map you can click on the red circles and get information about each count
 2. Node.js
 3. Google maps
 4. React material UI
-5. Working with API: Link
+5. Working with API: [https://disease.sh/](https://disease.sh/)
 6. Sass
 
 ## Available Scripts
