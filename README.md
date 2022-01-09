@@ -20,11 +20,12 @@ On the map you can click on the red circles and get information about each count
 ## Technologies
 
 1. React js
-2. Node.js
-3. Google maps
-4. React material UI
-5. Working with API: [https://disease.sh/](https://disease.sh/)
-6. Sass
+2. React Hooks
+3. Node.js
+4. Google maps
+5. React material UI
+6. Working with API: [https://disease.sh/](https://disease.sh/)
+7. Sass
 
 ## Available Scripts
 
